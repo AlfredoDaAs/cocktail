@@ -28,7 +28,7 @@ public abstract class Drink {
     }
     
     public void finish(){
-        System.out.println("verter bebida en vaso...");
+        System.out.println("vertiendo bebida en vaso...");
     }
     
     public float getPrice(){
