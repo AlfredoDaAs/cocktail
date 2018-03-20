@@ -14,8 +14,8 @@ public class Daiquiri extends Drink{
     public Daiquiri (){
         this.name = "Daiquiri";
         this.price = 45F;
-        this.ingredients.add("1 medida de Ginebra");
-        this.ingredients.add("1 chorro de limón");
-        this.ingredients.add("1 cucharada de azucar");
+        this.ingredients.add("1 unit of Ginger");
+        this.ingredients.add("lemon juice");
+        this.ingredients.add("1 tbsp sugar");
     }
 }

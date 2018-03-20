@@ -14,8 +14,8 @@ public class PinaColada extends Drink{
     public PinaColada (){
         this.name = "Piña Colada";
         this.price = 48F;
-        this.ingredients.add("1 medida de Ron");
-        this.ingredients.add("Crema de Coco");
-        this.ingredients.add("Jugo de Piña");
+        this.ingredients.add("1 unit of Ron");
+        this.ingredients.add("Coconut cream");
+        this.ingredients.add("Pineapple juice");
     }
 }

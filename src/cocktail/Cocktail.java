@@ -32,13 +32,13 @@ public class Cocktail {
         System.out.println("4.- Piña Colada");
         System.out.println("");
         
-        System.out.println("¿Cuantas bebidas van a ser?");
+        System.out.println("¿How many drinks?");
         cant = scan.nextInt();
         
         if(cant > 0){
             int i = 0;
             do{
-                System.out.println("Elige bebida no."+(i+1));
+                System.out.println("Choose drink num."+(i+1));
                 opc = scan.nextInt();
                 
                 if(opc > 0 && opc < 5){
@@ -46,13 +46,13 @@ public class Cocktail {
                     Drink drink = antro.orderDrink(opc);
                     total += drink.getPrice();
                 }else{
-                    System.out.println("Opcion Incorrecta, intenta de nuevo...");
+                    System.out.println("Sorry, thats not valid... try again.");
                 }
             }while(i < cant);
             
-            System.out.println("El total de las bebidas es: $" + total);
+            System.out.println("Total to pay: $" + total);
         }else{
-            System.out.println("Cantidad de bebidas incorrecta");
+            System.out.println("I can't sell you that many drinks LOL");
         }
     }
     
