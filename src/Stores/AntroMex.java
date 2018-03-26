@@ -5,30 +5,27 @@
  */
 package Stores;
 
-import Drinks.GDL.Daiquiri;
+import Drinks.MEX.*;
 import cocktail.Drink;
-import Drinks.GDL.Margarita;
-import Drinks.GDL.Martini;
-import Drinks.GDL.PinaColada;
 
 /**
  *
- * @author alfre
+ * @author Bruno
  */
-public class Antro extends Store{
+public class AntroMex extends Store{
 
     @Override
     protected Drink createDrink(int type) {
         
         switch(type){
             case 1:
-                return new Martini();
+                return new MartiniMex();
             case 2:
-                return new Margarita();
+                return new MargaritaMex();
             case 3:
-                return new Daiquiri();
+                return new DaiquiriMex();
             case 4:
-                return new PinaColada();
+                return new PinaColadaMex();
             default:
                 return null;
         }

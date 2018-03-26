@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Drinks;
+package cocktail;
 
 import java.util.ArrayList;
 
@@ -12,9 +12,9 @@ import java.util.ArrayList;
  * @author alfre
  */
 public abstract class Drink {
-    String name;
-    float price;
-    ArrayList<String> ingredients = new ArrayList<String>();
+    public String name;
+    public float price;
+    public ArrayList<String> ingredients = new ArrayList<String>();
     
     public void prepare(){
         System.out.println("Agregando Ingredientes...");
