@@ -16,7 +16,6 @@ public class Margarita extends Drink{
     public Margarita (){
         this.name = "Margarita";
         this.price = 50F;
-        this.ingredients.add("1 unit of Tequila");
         this.ingredients.add("lemon juice");
         this.ingredients.add("1 unit of Cointreau");
     }

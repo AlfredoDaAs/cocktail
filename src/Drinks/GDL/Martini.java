@@ -16,7 +16,6 @@ public class Martini extends Drink{
     public Martini (){
         this.name = "Martini";
         this.price = 40F;
-        this.ingredients.add("1 unit of Vodka");
         this.ingredients.add("1 unit of Vermouth");
         this.ingredients.add("1 olive");
     }

@@ -15,23 +15,33 @@ import Drinks.GDL.PinaColada;
  *
  * @author alfre
  */
-public class Antro extends Store{
+public class AntroMTY extends Store{
 
     @Override
     protected Drink createDrink(int type) {
+        Drink drink;
         
         switch(type){
             case 1:
-                return new Martini();
+                drink = new Martini();
+                drink.ingredients.add("1 unit of Champagne");
+                break;
             case 2:
-                return new Margarita();
+                drink = new Margarita();
+                drink.ingredients.add("1 unit of Rum");
+                break;
             case 3:
-                return new Daiquiri();
+                drink = new Daiquiri();
+                drink.ingredients.add("1 unit of Vodka");
+                break;
             case 4:
-                return new PinaColada();
+                drink = new PinaColada();
+                drink.ingredients.add("1 unit of Tequila");
+                break;
             default:
                 return null;
         }
+        
+        return drink;
     }
-    
 }

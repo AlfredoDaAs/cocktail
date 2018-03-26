@@ -16,7 +16,6 @@ public class PinaColada extends Drink{
     public PinaColada (){
         this.name = "Piña Colada";
         this.price = 48F;
-        this.ingredients.add("1 unit of Ron");
         this.ingredients.add("Coconut cream");
         this.ingredients.add("Pineapple juice");
     }

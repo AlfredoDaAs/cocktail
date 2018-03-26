@@ -17,18 +17,18 @@ public abstract class Drink {
     public ArrayList<String> ingredients = new ArrayList<String>();
     
     public void prepare(){
-        System.out.println("Agregando Ingredientes...");
+        System.out.println("Adding ingredients...");
         for (String ing : ingredients){
             System.out.println(" "+ ing);
         }
     }
     
     public void mix(){
-        System.out.println("Mezclando bebida - " + name);
+        System.out.println("Shaking it up " + name);
     }
     
     public void finish(){
-        System.out.println("vertiendo bebida en vaso...");
+        System.out.println("Pouring drink...");
     }
     
     public float getPrice(){

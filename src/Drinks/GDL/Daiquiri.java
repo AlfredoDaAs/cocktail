@@ -16,7 +16,6 @@ public class Daiquiri extends Drink{
     public Daiquiri (){
         this.name = "Daiquiri";
         this.price = 45F;
-        this.ingredients.add("1 unit of Ginger");
         this.ingredients.add("lemon juice");
         this.ingredients.add("1 tbsp sugar");
     }
