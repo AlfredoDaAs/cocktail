@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Drinks;
+package Drinks.MTY;
+
+import cocktail.Drink;
+
 
 /**
  *
- * @author alfre
+ * @author Bruno
  */
-public class Martini extends Drink{
+public class MartiniMty extends Drink{
     
-    public Martini (){
+    public MartiniMty (){
         this.name = "Martini";
         this.price = 40F;
         this.ingredients.add("1 unit of Vodka");

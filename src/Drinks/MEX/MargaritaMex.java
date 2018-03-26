@@ -3,15 +3,18 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Drinks;
+package Drinks.MEX;
+
+import cocktail.Drink;
+
 
 /**
  *
- * @author alfre
+ * @author Bruno
  */
-public class Margarita extends Drink{
+public class MargaritaMex extends Drink{
     
-    public Margarita (){
+    public MargaritaMex (){
         this.name = "Margarita";
         this.price = 50F;
         this.ingredients.add("1 unit of Tequila");

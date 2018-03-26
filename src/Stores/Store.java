@@ -5,7 +5,7 @@
  */
 package Stores;
 
-import Drinks.Drink;
+import cocktail.Drink;
 
 /**
  *

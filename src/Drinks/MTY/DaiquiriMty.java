@@ -3,15 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Drinks;
+package Drinks.MTY;
+
+import cocktail.Drink;
 
 /**
  *
- * @author alfre
+ * @author Bruno
  */
-public class Daiquiri extends Drink{
+public class DaiquiriMty extends Drink{
     
-    public Daiquiri (){
+    public DaiquiriMty (){
         this.name = "Daiquiri";
         this.price = 45F;
         this.ingredients.add("1 unit of Ginger");
